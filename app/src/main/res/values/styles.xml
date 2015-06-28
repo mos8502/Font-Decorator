@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--<item name="fontDecoratorStyle">@style/FontDecoratorStyle</item>-->
+    </style>
+
+    <style name="FontDecoratorStyle">
+        <item name="font">FantasqueSansMono-Regular.ttf</item>
+    </style>
+
+</resources>

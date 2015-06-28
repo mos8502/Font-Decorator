@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Font Decorator</string>
+    <string name="main_activity_label">Font Decorator</string>
+    <string name="support_main_activity_label">Support Font Decorator</string>
+    <string name="title_activity_main">Demonstration</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ipsum laoreet, tempus nibh in, placerat massa. Praesent ut dolor magna. Vestibulum ac cursus turpis. In vehicula sodales est vel porta. Fusce tincidunt at neque iaculis accumsan. Nulla venenatis tincidunt tempus. Nulla facilisi. Nam ac sapien justo. Aliquam erat volutpat. Ut sodales risus metus, sed tincidunt orci dictum nec. Etiam at ipsum nibh. Integer mauris nisi, tincidunt vitae euismod sed, ultrices ac felis.
+    </string>
+    <string name="hello_world">Hello world!</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontDecorator">
+        <attr name="font" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FontDecoratorTheme">
+        <attr name="fontDecoratorStyle" format="reference" />
+    </declare-styleable>
+
+</resources>
