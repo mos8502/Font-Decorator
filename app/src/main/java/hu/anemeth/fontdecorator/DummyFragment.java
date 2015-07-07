@@ -8,8 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.synchronoss.how2test.R;
-
 /**
  * Created by nemi on 2015.06.28..
  */

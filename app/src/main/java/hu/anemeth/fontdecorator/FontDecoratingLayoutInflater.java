@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.synchronoss.how2test.R;
 
 import java.util.Arrays;
 
@@ -35,28 +34,28 @@ public class FontDecoratingLayoutInflater extends LayoutInflater {
 
     @SuppressLint("NewApi")
     private static class FactoryMerger implements Factory2 {
-        private final Factory mF1, mF2;
-        private final Factory2 mF12, mF22;
+        private final Factory f1, f2;
+        private final Factory2 f12, f22;
 
         FactoryMerger(Factory f1, Factory2 f12, Factory f2, Factory2 f22) {
-            mF1 = f1;
-            mF2 = f2;
-            mF12 = f12;
-            mF22 = f22;
+            this.f1 = f1;
+            this.f2 = f2;
+            this.f12 = f12;
+            this.f22 = f22;
         }
 
         public View onCreateView(String name, Context context, AttributeSet attrs) {
-            View v = mF1.onCreateView(name, context, attrs);
+            View v = f1.onCreateView(name, context, attrs);
             if (v != null) return v;
-            return mF2.onCreateView(name, context, attrs);
+            return f2.onCreateView(name, context, attrs);
         }
 
         public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
-            View v = mF12 != null ? mF12.onCreateView(parent, name, context, attrs)
-                    : mF1.onCreateView(name, context, attrs);
+            View v = f12 != null ? f12.onCreateView(parent, name, context, attrs)
+                    : f1.onCreateView(name, context, attrs);
             if (v != null) return v;
-            return mF22 != null ? mF22.onCreateView(parent, name, context, attrs)
-                    : mF2.onCreateView(name, context, attrs);
+            return f22 != null ? f22.onCreateView(parent, name, context, attrs)
+                    : f2.onCreateView(name, context, attrs);
         }
     }
 

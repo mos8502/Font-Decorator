@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
-import com.synchronoss.how2test.R;
-
 /**
  * Created by nemi on 2015.06.28..
  */
