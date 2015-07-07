@@ -1,10 +1,12 @@
-package hu.anemeth.fontdecorator;
+package hu.anemeth.fontdecorator.demo;
 
 import android.content.Context;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.FrameLayout;
+
+import hu.anemeth.fontdecorator.FontDecoratingLayoutInflater;
 
 /**
  * Created by nemi on 2015.06.28..

@@ -1,4 +1,4 @@
-package hu.anemeth.fontdecorator;
+package hu.anemeth.fontdecorator.demo;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.app.FragmentManager;
 import android.widget.FrameLayout;
 
+import hu.anemeth.fontdecorator.FontDecoratingLayoutInflater;
 
 /**
  * Created by nemi on 2015.06.28..
